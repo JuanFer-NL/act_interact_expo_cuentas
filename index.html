@@ -167,7 +167,7 @@ body { font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--t
   <!-- Paso 2 -->
   <div class="panel" id="p2">
     <h2 class="panel-title">Tu línea de pobreza subjetiva</h2>
-    <p class="panel-desc">Aplicamos el factor de equivalencia de hogar (0,74) para obtener tu LPS en términos per cápita familiar.</p>
+    <p class="panel-desc">Aplicamos el factor de equivalencia de hogar para obtener tu LPS en términos per cápita familiar.</p>
     <div class="formula-card">
       <div class="formula-row">
         <div class="formula-icon"><i class="ti ti-receipt"></i></div>
@@ -175,7 +175,7 @@ body { font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--t
           <div class="formula-text-label">Tus gastos totales (y<sub>min</sub>)</div>
           <div class="formula-text-value" id="p2_ymin">—</div>
         </div>
-        <span class="formula-arrow">× 0,74</span>
+        <span class="formula-arrow">× factor de equivalencia</span>
       </div>
       <div class="formula-result">
         <span class="formula-result-label">Tu LPS (y<sup>p</sup><sub>min</sub>)</span>
@@ -184,7 +184,7 @@ body { font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--t
     </div>
     <div class="info-note">
       <i class="ti ti-info-circle"></i>
-      <span>El factor <strong>0,74</strong> convierte el ingreso mínimo individual en un equivalente per cápita familiar, permitiendo compararlo directamente con el IPCF de la EPH.</span>
+      <span>Este factor convierte el ingreso mínimo individual en un equivalente per cápita familiar, permitiendo compararlo directamente con el IPCF de la EPH.</span>
     </div>
     <div class="btn-row" style="margin-top:1.5rem;">
       <button class="btn-ghost" onclick="goPanel(1)"><i class="ti ti-arrow-left"></i> Volver</button>
