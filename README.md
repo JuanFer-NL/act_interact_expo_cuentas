@@ -1,5 +1,8 @@
 # Actividad Interactiva — Línea de Pobreza Subjetiva
 
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-live-2ea44f?logo=githubpages&logoColor=white)](https://juanfer-nl.github.io/act_interact_expo_cuentas/)
+[![License: CC BY 4.0](https://img.shields.io/badge/license-CC%20BY%204.0-lightgrey.svg)](LICENSE)
+
 Actividad interactiva para **Expo Cuentas 2026**, basada en el enfoque de Leyden para estimar la línea de pobreza subjetiva (LPS) a partir del propio gasto de la persona visitante, contrastada contra microdatos reales de la EPH (Encuesta Permanente de Hogares).
 
 🔗 **Ver la actividad en vivo:** https://juanfer-nl.github.io/act_interact_expo_cuentas/
